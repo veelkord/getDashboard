@@ -5,7 +5,7 @@ const requirefs = createRequire(import.meta.url);
 const writeJsonFile = function (object, title) {
   const fs = requirefs("fs");
   let data = JSON.stringify(object, null, 2);
-  fs.writeFile(`./src/json/${title}.json`, data, (err) => {
+  fs.writeFile(`./src/json/${title.replace(/\s/g, '')}.json`, data, (err) => {
     if (err) throw err;
     else {
       console.log(`Great success writing ${title}.json`);
