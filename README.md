@@ -12,8 +12,8 @@ Launch instructions
 8. Go to your browser and type: **localhost:3000/000000045** 
 9. You can get more uid-s from play.grafana.com
 10. some examples for playing around 000000012, 000000014, T512JVH7z
-11.If you are using google chrome you can install json formatter extension
 12. Inside a project folder you should also see a created json file inside json folder.
+13. If you are using google chrome you can install json formatter extension
 
 
 
